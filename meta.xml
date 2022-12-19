@@ -1,0 +1,18 @@
+<!-- This resource need to add in ACL.xml to group Admin. -->
+<meta>
+    <info author="NexT" description="NexT" version="5.0" type="script"></info>
+    <script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" cache="false" />
+	
+	<!-- HTML -->
+	<file src="index.html" />
+	<!-- FILES -->	
+	<file src="app.js" />
+	<file src="style.css" />
+	<file src="war.png" />
+		<file src="hydra.png" />
+		<file src="intro.mp3" />
+
+	<!-- Exports -->
+	<export function="cmsg" http="true" />
+</meta>
